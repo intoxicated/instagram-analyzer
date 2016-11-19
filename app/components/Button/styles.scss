@@ -1,0 +1,29 @@
+@import "helpers/helpers";
+
+.buttonWrapper {
+  @include flexbox;
+  text-align: center;
+
+  .button {
+    @include flexbox;
+    @include flex-direction(column);
+    @include justify-content(center);
+    @include flex(1);
+    height: 4rem;
+    border: 0;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-touch-callout: none;
+    user-select: none;
+    cursor: pointer;
+    outline: 0;
+    font-weight: 100;
+    font-size: 1.2rem;
+    background-color: rgb(255, 89, 89);
+    color: white;
+
+    &.active{
+      background-color: rgb(255, 89, 89);
+    }
+  }
+}

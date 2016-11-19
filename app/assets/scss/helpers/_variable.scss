@@ -1,0 +1,112 @@
+$min_tablet_width: 768px;
+$medium_tablet_width: 1024px;
+$desktop_width: 1282px;
+$common_spaceing: 3rem;
+
+// Color List
+$body_color: #505A71;
+$header_color: #3f485d;
+$new_mark_bg_color: #FD5555;
+$main_page_bg_color: #505A71;
+$login_page_bg_color: #37D0BB;
+$noshow_page_bg_color: #F1F1F1;
+$state_bar_triangle_color: #505a71;
+$mint_button_color: rgb(20, 203, 178);
+$red_button_color: rgb(122, 136, 162);
+$yellow_button_color: rgb(255, 181, 87);
+$purple_button_color: #9553DD;
+$ready_color: rgb(4, 200, 179);
+$yellow_color: rgb(255, 181, 87);
+$purple_color: #9553DD;
+$lastcall_color: rgb(255, 62, 62);
+$list_divider_color: #EDEDED;
+$warm-grey: rgb(153, 153, 153);
+$white: #FBFBFB;
+$divider_color: #EDEDED;
+$setting_header_bg_color: #505A71;
+$setting_bg_color: #FBFBFB;
+
+// Size List
+$main_header_size: 7.6rem;
+$button_area_width: 24rem;
+$login_box_width: 45rem;
+$info_column_list: 8.5rem;
+
+// z-index List
+$z-layers: (
+  'zero': 0,
+  'base': 1,
+  'hostAdminHeader': 2,
+  'hostAdminFloating': 100,
+);
+
+// image address
+$header_state_box_wating_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/oanvt-s_dmyxc9jl.png";
+$header_state_box_order_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/dskrlb_-j0chzkfu.png";
+$header_state_box_new_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/q26xjhghh0kcgixk.png";
+$header_noshow_button_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/m1ek48cogo6hfqxt.png";
+$header_plus_button_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/dmdwc_oa6rfyizvj.png";
+$header_message_button_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/lzmnwqmcvbwwudwj.png";
+$notice_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/p5zknmikyidectrd.png";
+$notice_inactive_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/k1y4oxab33cqcrcj.png";
+$edit_pen_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/02zcxtykvnpbz-on.png";
+$back_button: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/tlyb9vohuw3sy98s.png";
+$plus_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/wh4uuq9bdktvro3w.png";
+$drop_down_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/rf5y6lbkvhft8ov7.png";
+$wastebasket_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/cfe18vwk8mpuhuiq.png";
+$arrow_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/alrmwki-ylpfcbah.png";
+$revert_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/oeb1w_wvjbdvumo-.png";
+$checked_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/p9yvg31jgw6kkhks.png";
+$seat_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/jsrf_u-ilwd3c85q.png";
+$cancel_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/bfztpfuqcxtqlu7m.png";
+$counter_pluse_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/1rty0mt5qlbprq5l.png";
+$refresh_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/ucf2hovaj-55uwp9.png";
+$top_move_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/9a3iamw9738la4g0.png";
+$hostcall_notice_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/qz0owilh4amqtr3s.png";
+$hostcall_notice_ready_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/krrunpdane_1xlqi.png";
+$hostcall_notice_seat_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/xwdcscb0gwww5szf.png";
+$hostcall_notice_lastcall_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/fyjhnabhuaiqbz5f.png";
+$hostcall_notice_check_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/5hlow48lkcpcngbi.png";
+$hostcall_notice_ready_check_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/ab0jr53h4fhqz5sg.png";
+$hostcall_notice_seat_check_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/smhbwml6c7p4ojp6.png";
+$hostcall_notice_lastcall_check_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/qtcpdhaex-9ocm5v.png";
+$terms_checked_icon: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/ct3olwgzxfdxd7iu.png";
+$ic_back_white: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/dqhulxmoppve5bcd.png";
+$ic_analytics_reports_white: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/zf_bhoewizstbpbm.png";
+$host_setting_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/2qfd1nuaqcldl2ih.png";
+$host_setting_admin_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/35el2fpkyjadiywo.png";
+$host_setting_admin_click_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/os07q9eha1ejotqu.png";
+$host_setting_store_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/sbzwqjpybyixpqkx.png";
+$host_setting_sms_option_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/httizkpjhn0-y8ib.png";
+$host_setting_sms_option_click_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/0-x2webxl-yuv_jd.png";
+$host_setting_chair_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/dbskrwgqx61xpicj.png";
+$host_setting_menu_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/vgtqugse2kefrdu4.png";
+$host_setting_people_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/b2o2cwlthy91dtjo.png";
+$host_setting_report_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/kmxmpokx3zugrnuu.png";
+$host_setting_report_click_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/06xwkxrjnq_owipi.png";
+$host_setting_kiosk_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/rg74dmxityjtgjoi.png";
+$host_setting_kiosk_click_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/w8-9ns_kc3mpl24-.png";
+$host_setting_instore_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/gt9h-nsmsa_gnjgq.png";
+$host_setting_instore_click_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/y_adnlk-kw93erqx.png";
+$host_setting_reset_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/theklz7algoy_zzi.png";
+$host_setting_reset_click_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/oix6k0qvuqofqzba.png";
+$host_setting_logout_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/oxkzbv147aj4rqqg.png";
+$host_setting_logout_click_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/r_l3wtlu-xy2xwnc.png";
+
+$kiosk_ko_flag_flat: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/belihu9hqmcp6crn.png";
+$kiosk_en_flag_flat: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/kcevfze2r-kwmlal.png";
+$arrow_down_icon: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/gtqrk7u_ujdf1idc.png";
+
+$kiosk_terms_see_more_icon: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/pmnjllywqtpqbirg.png";
+$kiosk_terms_agree_all_icon: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/j1t4ol3fcwurgfrc.png";
+$kiosk_term_dismiss_icon: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/ylyojhqjzuqiyniu.png";
+
+$sms_icon_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/tv4m-ozjijuvhv1y.png";
+$sms_back_button: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/dqhulxmoppve5bcd.png";
+$sms_close_button_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/pnumr8nl7mnzkcie.png";
+$sms_bubble_image: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/_mq_0vscgep_31pz.png";
+
+$kiosk_registration_phone_number_icon: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/cwkhl40ol5ukr76m.png";
+$kiosk_registration_name_icon: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/mf0ijklra00vvbq7.png";
+$kiosk_registration_party_size_icon: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/q9q5qgryhex4dg9l.png";
+$kiosk_terms_close_icon: "https://mp-seoul-image-production-s3.mangoplate.com/web/resources/hytc_6h3bmnozhkp.png"

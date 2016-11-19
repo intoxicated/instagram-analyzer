@@ -1,0 +1,14 @@
+@import "helpers/helpers";
+
+.buttons{
+  @include flexbox;
+  @include flex-direction(row);
+
+  .button{
+    @include flex(1);
+    height: 7rem;
+    background-color: rgb(255, 89, 89);
+    color: white;
+    font-size: 3rem;
+  }
+}

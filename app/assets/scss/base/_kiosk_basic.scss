@@ -1,0 +1,20 @@
+html{
+  font-size: 100%;
+  -webkit-overflow-scrolling: touch;
+
+  @include mobile{
+    font-size: 62.5%;
+  }
+
+  @include medium-tablet{
+    font-size: 93.75%;
+  }
+
+  @include desktop{
+    font-size: 93.75%;
+  }
+
+  font-family: AppleSDGothicNeo, "SpoqaHanSans", sans-serif;
+}
+
+@import "basic";

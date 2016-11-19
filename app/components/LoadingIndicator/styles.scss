@@ -1,0 +1,84 @@
+@import "helpers/helpers";
+
+.loading_container {
+  position:fixed;
+  @include flexbox;
+  @include flex-direction(column);
+  @include justify-content(center);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .7);
+  z-index: 2000;
+
+  .loading_text {
+    width: 100%;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .loading_dots_container {
+    @include flexbox;
+    @include flex-direction(row);
+    @include justify-content(center);
+    width:100%;
+    margin: 24px 0;
+
+    .loading_dot {
+      background-color: rgb(255, 94, 91);
+      width: 24px;
+      height: 24px;
+      @include transform(scale(0.0));
+      @include animation-duration(2s);
+      @include animation-name(bounce);
+      @include animation-iteration-count(infinite);
+      @include animation-direction(normal);
+      @include transition-timing-function(ease-in-out);
+      @include border-radius(24px);
+
+      &:nth-child(1) {
+        @include animation-delay(0s);
+      }
+
+      &:nth-child(2) {
+        @include animation-delay(0.2s);
+      }
+
+      &:nth-child(3) {
+        @include animation-delay(0.4s);
+      }
+
+      &:nth-child(4) {
+        @include animation-delay(0.6s);
+      }
+
+      &:nth-child(5) {
+        @include animation-delay(0.8s);
+      }
+    }
+  }
+}
+
+@mixin bounceMixin($name){
+  @keyframes #{$name} {
+    @content;
+  }
+
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+
+  @-o-keyframes #{$name} {
+    @content;
+  }
+}
+
+@include bounceMixin(bounce) {
+  0% { @include transform(scale(0.0)); }
+  50% { @include transform(scale(0.7)); }
+  100% { @include transform(scale(0.0)); }
+}

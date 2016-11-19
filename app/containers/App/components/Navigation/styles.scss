@@ -1,0 +1,47 @@
+.navigation {
+
+  .app_title {
+    float: left;
+    display: block;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  h3 {
+      float: left;
+      margin: 10px;
+      display: inline-block;
+      background-color: #999;
+  }
+
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #999;
+      height: 52px;
+  }
+
+  li {
+      float: right;
+  }
+
+  li a {
+      height: 100%;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 17px 16px;
+      text-decoration: none;
+      transition: .3s background-color;
+  }
+
+  li a:hover:not(.active) {
+      background-color: #888;
+      color: #444;
+      cursor: default;
+  }
+}

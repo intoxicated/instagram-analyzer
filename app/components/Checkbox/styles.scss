@@ -1,0 +1,27 @@
+@import "helpers/helpers";
+
+.checkbox_wrap{
+  .check_box{
+    display: none;
+    text-indent: -9999px;
+
+    &:checked + .virtual_check_box{
+      border: 1px solid rgb(255, 92, 88);
+
+      &:after{
+        content: '';
+        @include position_center(absolute);
+        @include icon($terms_checked_icon, .8rem, .6rem);
+      }
+    }
+  }
+
+  .virtual_check_box {
+    position: relative;
+    width: 1.4rem;
+    height: 1.4rem;
+    border:1px solid rgb(194, 194, 194);
+    @include border_box;
+    background-color: white;
+  }
+}

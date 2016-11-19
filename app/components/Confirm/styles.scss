@@ -1,0 +1,40 @@
+@import "helpers/helpers";
+
+.confirm{
+  .confirm_content{
+    @include flexbox;
+    @include flex-direction(column);
+    @include justify-content(center);
+    font-size: 3rem;
+    min-height: 30rem;
+    text-align: center;
+  }
+
+  .buttons {
+    @include flexbox;
+    @include flex-direction(row);
+
+    //.button{
+    //  height: 4rem;
+    //  font-size: 20px;
+    //  color: white;
+    //}
+
+    :disabled {
+      background-color: #B0B0B0;
+      cursor: not-allowed;
+    }
+  }
+}
+
+.button{
+  @include flex(1);
+}
+
+.enabled{
+  background-color: rgb(255, 89, 89);
+}
+
+.disabled{
+  background-color: rgb(121, 128, 143);
+}
